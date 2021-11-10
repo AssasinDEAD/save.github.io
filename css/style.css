@@ -1,0 +1,34 @@
+.title {
+  text-align: center;
+}
+
+.btn {
+  border: none;
+}
+
+.save__main {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.save__title {
+  color: red;
+}
+
+.save__btn {
+  background-color: #a73f3f;
+  color: white;
+  padding: 15px 32px 15px 32px;
+}
